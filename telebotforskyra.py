@@ -28,7 +28,6 @@ def get_data():
     finally:
         timeout.cancel()
         
-
 def check_new_posts_vk():
     # Пишем текущее время начала
     logging.info('[VK] Started scanning for new posts')
